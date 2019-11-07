@@ -1,7 +1,6 @@
 // TODO: These should be uncommented for releases
 import PopOut from '../views/PopOut';
 import Login from '../views/Login';
-import Apps from '../views/Apps';
 import App from '../views/App';
 import Assets from '../views/Assets';
 import Wallet from '../views/Wallet';
@@ -12,11 +11,8 @@ import Exchange from '../views/Exchange';
 import Receive from '../views/Receive';
 import Networks from '../views/Networks';
 import Contacts from '../views/Contacts';
-import Identities from '../views/Identities';
-import Locations from '../views/Locations';
 import Histories from '../views/Histories';
 import Settings from '../views/Settings';
-import RIDL from '../views/RIDL';
 import Purchase from '../views/Purchase';
 
 // TODO: These should be commented out for testing.
@@ -55,10 +51,7 @@ export const RouteNames = {
 	RECEIVE:'receive',
 	EXCHANGE:'exchange',
 	CONTACTS:'contacts',
-	IDENTITIES:'identities',
-	LOCATIONS:'locations',
 	HISTORIES:'histories',
-	RIDL:'ridl',
 	SETTINGS:'settings',
 	PURCHASE:'purchase',
 
@@ -69,7 +62,6 @@ export const RouteNames = {
 
 const RouteViews = {
 	[RouteNames.LOGIN]:Login,
-	[RouteNames.HOME]:Apps,
 	[RouteNames.WALLET]:Wallet,
 	[RouteNames.ITEMS]:Items,
 	[RouteNames.NETWORKS]:Networks,
@@ -78,10 +70,7 @@ const RouteViews = {
 	[RouteNames.RECEIVE]:Receive,
 	[RouteNames.EXCHANGE]:Exchange,
 	[RouteNames.CONTACTS]:Contacts,
-	[RouteNames.IDENTITIES]:Identities,
-	[RouteNames.LOCATIONS]:Locations,
 	[RouteNames.HISTORIES]:Histories,
-	[RouteNames.RIDL]:RIDL,
 	[RouteNames.SETTINGS]:Settings,
 	[RouteNames.PURCHASE]:Purchase,
 

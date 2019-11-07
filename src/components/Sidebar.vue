@@ -41,13 +41,9 @@
 					{
 						name:null,
 						items:[
-							this.accounts.length ? {name:'Apps', route:RouteNames.HOME} : null,
+							// this.accounts.length ? {name:'Apps', route:RouteNames.HOME} : null,
 							{name:'Wallet', route:RouteNames.WALLET},
 							this.accounts.length ? {name:'Assets', route:RouteNames.ASSETS} : null,
-							// this.accounts.length ? {name:'Marketplace', route:RouteNames.ITEMS} : null,
-							{name:'Identities', route:RouteNames.IDENTITIES},
-							{name:'Locations', route:RouteNames.LOCATIONS},
-							this.accounts.length ? {name:'Reputation', route:RouteNames.RIDL} : null,
 							this.features.creditCards ? {name:'Purchase', route:RouteNames.PURCHASE} : null,
 						].filter(x => !!x)
 					},

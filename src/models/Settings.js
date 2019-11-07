@@ -28,7 +28,9 @@ export default class Settings {
 
     constructor(){
         this.networks = [];
-        this.networks.push(new Network('LightNet', 'http', '140.82.56.80', 8000, Blockchains.EOSIO, LTNChainId));
+        let network = new Network('LightNet', 'http', '140.82.56.80', 8000, Blockchains.EOSIO, LTNChainId);
+        network.token = new Token(Blockchains.EOSIO, 'eosio.token', 'SYS', 'SYS', 4, LTNChainId);
+        this.networks.push(network);
         this.language = LANG.ENGLISH;
         this.autoBackup = BACKUP_STRATEGIES.AUTOMATIC;
         this.backupLocation = '';
