@@ -109,15 +109,6 @@
 		},
 		methods:{
 			async init(){
-				this.setWorkingScreen(true);
-				this.knownNetworks = await Promise.race([
-					new Promise(resolve => setTimeout(() => resolve([]), 2000)),
-					GET(`networks?flat=true`).then(networks => networks.map(x => Network.fromJson(x))).catch(() => [])
-				]);
-				this.setWorkingScreen(false);
-				this.networks.map(async network => {
-					await this.checkReachable(network);
-				})
 			},
 			cantReach(network){
 				return this.unreachable[network.unique()]

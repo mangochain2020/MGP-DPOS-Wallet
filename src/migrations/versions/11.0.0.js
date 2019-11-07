@@ -51,7 +51,7 @@ export const m11_0_0 = async scatter => {
 
 	const btcNetwork = PluginRepository.plugin(Blockchains.BTC).getEndorsedNetwork();
 	if(!scatter.settings.networks.find(x => x.unique() === btcNetwork.unique())){
-		scatter.settings.networks.push(btcNetwork);
+		//scatter.settings.networks.push(btcNetwork);
 	}
 
 	scatter.settings.explorers[Blockchains.BTC] = Explorer.fromRaw(PluginRepository.plugin(Blockchains.BTC).defaultExplorer());
