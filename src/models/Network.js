@@ -6,7 +6,6 @@ import StoreService from "../services/utility/StoreService";
 
 export default class Network {
     constructor(_name = '', _protocol = 'https', _host = '', _port = 0, blockchain = Blockchains.EOSIO, chainId = '', _path = ''){
-        console.trace();
         this.id = IdGenerator.numeric(12);
         this.name = _name;
         this.protocol = _protocol;

@@ -80,7 +80,7 @@ class Main {
 		};
 
 		new VueInitializer(Routing.routes(), components, middleware, async (router, store) => {
-			// SocketService.initialize();
+			SocketService.initialize();
 		});
 
 		// window.onerror = log => {
