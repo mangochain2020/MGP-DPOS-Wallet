@@ -9,7 +9,7 @@
 			</section>
 		</section>
 
-		<ActionBar :buttons-left="[{text:'Cancel', click:() => returnResult(false)}]" :buttons-right="[{text:'Destroy Scatter', blue:true, click:() => destroy()}]" />
+      :buttons-right="[{text:'Destroy LightNet', blue:true, click:() => destroy()}]"
 	</section>
 </template>
 
