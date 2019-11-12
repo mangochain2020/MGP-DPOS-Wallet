@@ -10,7 +10,7 @@
 
 		<br>
 
-		<Button big="1" blue="1" text="Start using Scatter" @click.native="go" />
+    <Button big="1" blue="1" text="Start using LightNet" @click.native="go" />
 	</section>
 </template>
 
