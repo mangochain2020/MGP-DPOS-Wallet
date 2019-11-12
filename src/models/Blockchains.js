@@ -8,7 +8,7 @@ export const BlockchainsArray =
 
 export const blockchainName = x => {
     switch(x){
-        case Blockchains.EOSIO: return 'EOSIO';
+        case Blockchains.EOSIO: return 'LightNet';
         default: return 'Other';
     }
 }
