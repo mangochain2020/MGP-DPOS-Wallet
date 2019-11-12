@@ -8,8 +8,10 @@
 				<figure class="description">{{locale(langKeys.POPINS.FULLSCREEN.DESTROY.Desc)}}</figure>
 			</section>
 		</section>
-
-      :buttons-right="[{text:'Destroy LightNet', blue:true, click:() => destroy()}]"
+    <ActionBar
+      :buttons-left="[{text:'Cancel', click:() => returnResult(false)}]"
+      :buttons-right="[{text:'Destroy Lightnet', blue:true, click:() => destroy()}]"
+    />
 	</section>
 </template>
 
