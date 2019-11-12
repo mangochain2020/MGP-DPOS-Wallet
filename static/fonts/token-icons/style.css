@@ -31,7 +31,7 @@
   content: "\e901";
 }
 .token-eos-eos:before {
-  content: "\e902";
+  /* content: "\e902"; */
 }
 .token-eth-dai:before {
   content: "\e903";
