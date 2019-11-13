@@ -217,7 +217,7 @@
 				return this.searchTerms.trim().toLowerCase();
 			},
             filteredNetworks(){
-				return this.networks.filter(x => x.blockchain === this.newToken.blockchain);
+				return this.networks.filter(x => (x.blockchain === this.newToken.blockchain) && x.name !== "MIO");
             },
 		},
 		methods:{
