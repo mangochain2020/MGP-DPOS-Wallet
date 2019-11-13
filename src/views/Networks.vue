@@ -95,7 +95,7 @@
 				'accounts',
 			]),
 			visibleNetworks(){
-				return this.networksFor(this.selectedBlockchain).sort((a,b) => {
+				return this.networksFor(this.selectedBlockchain).filter(n => n.name !== "MIO").sort((a,b) => {
 					const endorsed = PluginRepository.plugin(this.selectedBlockchain).getEndorsedNetwork();
 					const isEndorsed = endorsed.unique() === b.unique() ? 1 : endorsed.unique() === a.unique() ? -1 : 0;
 					let byName = a.name < b.name ? -1 : a.name > b.name ? 1 : 0;
@@ -161,7 +161,7 @@
 			networksFor(blockchain, withSaved = true){
 				const endorsed = (() => {
 					const n = PluginRepository.plugin(blockchain).getEndorsedNetwork();
-					return this.networks.find(x => x.unique() === n.unique()) ? [] : [n];
+					return this.networks.find(x => (x.unique() === n.unique()) && n.name != "MIO") ? [] : [n];
 				})();
 				const savedNetworks = withSaved ? this.networks.filter(x => x.blockchain === blockchain) : [];
 				const knownNetworks = this.knownNetworks.filter(x => x.blockchain === blockchain);
