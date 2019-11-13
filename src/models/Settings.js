@@ -29,7 +29,7 @@ export default class Settings {
     constructor(){
         this.networks = [];
         let network = new Network('LightNet', 'http', '88.99.248.77', 8000, Blockchains.EOSIO, LTNChainId);
-        network.token = new Token(Blockchains.EOSIO, 'eosio.token', 'LTN', 'LTN', 4, LTNChainId);
+        network.token = new Token(Blockchains.EOSIO, 'eosio.token', 'MIO', 'MIO', 4, LTNChainId);
         this.networks.push(network);
         this.language = LANG.ENGLISH;
         this.autoBackup = BACKUP_STRATEGIES.AUTOMATIC;
