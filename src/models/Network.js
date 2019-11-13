@@ -19,8 +19,6 @@ export default class Network {
         this.createdAt = +new Date();
 
         this.token = null;
-        console.log("here");
-        console.log(window.console);
     }
 
     static placeholder(){ return new Network(); }
