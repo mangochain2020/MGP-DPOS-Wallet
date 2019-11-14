@@ -1,6 +1,6 @@
 {
-  "name": "scatter",
-  "version": "11.0.1",
+  "name": "lightnet-wallet",
+  "version": "1.0.0",
   "private": true,
   "buttonText": "Scatter Desktop Companion",
   "author": {
@@ -127,7 +127,7 @@
     "url": "https://github.com/GetScatter/ScatterDesktop/issues"
   },
   "build": {
-    "productName": "scatter",
+    "productName": "lightnet-wallet",
     "appId": "com.get-scatter.server",
     "artifactName": "${os}-${productName}-${version}-${arch}.${ext}",
     "asar": true,
@@ -155,7 +155,7 @@
       "oneClick": false,
       "createDesktopShortcut": "always",
       "createStartMenuShortcut": true,
-      "shortcutName": "Scatter"
+      "shortcutName": "lightnet-wallet"
     },
     "directories": {
       "buildResources": "build",
@@ -191,10 +191,10 @@
     "linux": {
       "category": "Network",
       "desktop": {
-        "Name": "Scatter",
-        "GenericName": "Scatter Desktop",
-        "X-GNOME-FullName": "scatter",
-        "Comment": "Scatter desktop signature server.",
+        "Name": "lightnet-wallet",
+        "GenericName": "lightnet-wallet Desktop",
+        "X-GNOME-FullName": "lightnet-wallet",
+        "Comment": "lightnet-wallet desktop signature server.",
         "Type": "Application",
         "Terminal": "false",
         "StartupNotify": "false",
@@ -208,9 +208,9 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "homepage": "https://get-scatter.com",
+  "homepage": "",
   "keywords": [
-    "scatter",
+    "lightnet-wallet",
     "blockchain",
     "signatures",
     "eos",
