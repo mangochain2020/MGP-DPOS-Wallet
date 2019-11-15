@@ -72,7 +72,6 @@
 							<p v-else>Make sure that you have a network for the {{blockchainName(keypair.enabledKey().blockchain)}} blockchain enabled.</p>
 						</section>
 
-						<Button v-if="canCreateAccounts(keypair)" text="Create one now!" @click.native="createEosAccount(keypair)" />
 					</section>
 				</section>
 
