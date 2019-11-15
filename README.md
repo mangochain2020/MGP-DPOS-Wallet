@@ -1,11 +1,11 @@
-# Scatter Desktop
+# LightNet Desktop Wallet
 
 ## Installation
 
 **None of these package are signed yet.** Make sure you only download 
-Scatter Desktop from this GitHub, and **NOWHERE ELSE**.
+LightNet Desktop from this GitHub, and **NOWHERE ELSE**.
 
-#### [CLICK HERE AND GRAB THE LATEST RELEASE](https://github.com/GetScatter/ScatterDesktop/releases)
+#### [CLICK HERE AND GRAB THE LATEST RELEASE](https://github.com/LIGHTNET-SYSTEMS/DPOS-Wallet/releases)
 
 ### Running in development mode
 
@@ -20,10 +20,7 @@ This runs best with `node v10.15.3` and `electron v5.0.1`
 ### Building
 
 - `npm run build`
-- `npm run release-mac` or `npm run release-windows` or `npm run release-linux` ( you must build from the target machine )
+- `npm run release-mac` or `npm run release-win` or `npm run release-linux` ( you must build from the target machine )
 
-
-## Creating Apps for Scatter 
-### Check out the [Documentation](https://get-scatter.com/docs/examples-interaction-flow)
 
 
