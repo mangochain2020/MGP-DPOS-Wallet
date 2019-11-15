@@ -3,7 +3,7 @@
 ## Installation
 
 **None of these package are signed yet.** Make sure you only download 
-LightNet Desktop from this GitHub, and **NOWHERE ELSE**.
+LightNet Wallet from this GitHub, and **NOWHERE ELSE**.
 
 #### [CLICK HERE AND GRAB THE LATEST RELEASE](https://github.com/LIGHTNET-SYSTEMS/DPOS-Wallet/releases)
 

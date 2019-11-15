@@ -12,7 +12,7 @@
 
       <section class="head">
         <section class="details">
-          <figure class="version">LightNet</figure>
+          <figure class="version">LightNet Wallet</figure>
         </section>
       </section>
 

@@ -2,7 +2,7 @@
   <section>
     <section class="action-box top-pad">
       <label>{{locale(langKeys.SETTINGS.GENERAL.VersionLabel)}}</label>
-      <b>LightNet Desktop v{{version}}</b>
+      <b>LightNet Wallet v{{version}}</b>
       <br />
       <br />
     </section>
