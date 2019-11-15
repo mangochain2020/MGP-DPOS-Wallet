@@ -165,7 +165,7 @@ export default class EOS extends Plugin {
 	accountFormatter(account){ return `${account.name}@${account.authority}` }
 	returnableAccount(account){ return { name:account.name, authority:account.authority, publicKey:account.publicKey, blockchain:Blockchains.EOSIO }}
 
-	contractPlaceholder(){ return 'eosio.token'; }
+	contractPlaceholder(){ return 'ltnio.token'; }
 	recipientLabel(){ return localizedState(LANG_KEYS.GENERIC.AccountName); }
 
 	checkNetwork(network){
