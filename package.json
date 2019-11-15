@@ -127,7 +127,7 @@
     "url": "https://github.com/GetScatter/ScatterDesktop/issues"
   },
   "build": {
-    "productName": "LightNet",
+    "productName": "LightNet Wallet",
     "appId": "com.get-scatter.server",
     "artifactName": "${os}-${productName}-${version}-${arch}.${ext}",
     "asar": true,
@@ -155,7 +155,7 @@
       "oneClick": false,
       "createDesktopShortcut": "always",
       "createStartMenuShortcut": true,
-      "shortcutName": "LightNet"
+      "shortcutName": "LightNet Wallet"
     },
     "directories": {
       "buildResources": "build",
