@@ -22,5 +22,13 @@ This runs best with `node v10.15.3` and `electron v5.0.1`
 - `npm run build`
 - `npm run release-mac` or `npm run release-win` or `npm run release-linux` ( you must build from the target machine )
 
+### Manually changing/adding default network
+1. Go to /src/models/Settings.js                      
+1. Change/add new network to ```networks``` array.        
+```let network = new Network('LightNet', 'http', '88.99.248.77', 8000, Blockchains.EOSIO, LTNChainId);```                  
+```network.token = new Token(Blockchains.EOSIO, 'eosio.token', 'LTN', 'LTN', 4, LTNChainId);```                     
+```this.networks.push(network);```                          
+ 1. Be careful, you should also provide new ```ChainID``` as well.                             
+```const LTNChainId = 'ea666b3d188bdbc8a448d34bca381c8d78abfd1c5e50afbb14d87531f0a443d0';```                       
 
 
