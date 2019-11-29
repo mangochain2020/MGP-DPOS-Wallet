@@ -147,10 +147,10 @@ const popupError = result => {
 
 
 const EXPLORER = {
-	"name":"Bloks",
-	"account":"https://bloks.io/account/{x}",
-	"transaction":"https://bloks.io/transaction/{x}",
-	"block":"https://bloks.io/block/{x}"
+	"name":"BlockExplorer",
+	"account":"https://bex.lightnet.systems/account/{x}",
+	"transaction":"https://bex.lightnet.systems/transaction/{x}",
+	"block":"https://bex.lightnet.systems/block/{x}"
 };
 
 
