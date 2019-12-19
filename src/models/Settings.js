@@ -6,7 +6,7 @@ import Explorer from "./Explorer";
 import Firewall from "./Firewall";
 import {Blockchains} from '../models/Blockchains'
 
-const LTNChainId = '702fb553f12132f3854614b2dfc3712d4426a1a99335b17e08a3a8a6c13a9667';
+const MGPChainId = 'd693c8e03737cd117cc54eeb3d33e6c6648484ea9576bc94e623fef27199d5bb';
 
 
 export const BACKUP_STRATEGIES = {
@@ -28,8 +28,8 @@ export default class Settings {
 
     constructor(){
         this.networks = [];
-        let network = new Network('LightNet', 'http', '88.99.248.77', 8000, Blockchains.EOSIO, LTNChainId);
-        network.token = new Token(Blockchains.EOSIO, 'eosio.token', 'LTN', 'LTN', 4, LTNChainId);
+        let network = new Network('MgpChain', 'http', '202.60.241.144', 8000, Blockchains.EOSIO, MGPChainId);
+        network.token = new Token(Blockchains.EOSIO, 'eosio.token', 'MGP', 'MGP', 4, MGPChainId);
         this.networks.push(network);
         this.language = LANG.ENGLISH;
         this.autoBackup = BACKUP_STRATEGIES.AUTOMATIC;

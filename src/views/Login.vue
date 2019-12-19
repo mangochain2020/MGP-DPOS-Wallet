@@ -12,7 +12,7 @@
 
       <section class="head">
         <section class="details">
-          <figure class="version">LightNet Wallet</figure>
+          <figure class="version">MgpChain Wallet</figure>
         </section>
       </section>
 

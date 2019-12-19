@@ -10,7 +10,7 @@
 		</section>
     <ActionBar
       :buttons-left="[{text:'Cancel', click:() => returnResult(false)}]"
-      :buttons-right="[{text:'Destroy Lightnet', blue:true, click:() => destroy()}]"
+      :buttons-right="[{text:'Destroy Mgpchain', blue:true, click:() => destroy()}]"
     />
 	</section>
 </template>

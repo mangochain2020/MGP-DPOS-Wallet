@@ -148,9 +148,9 @@ const popupError = result => {
 
 const EXPLORER = {
 	"name":"BlockExplorer",
-	"account":"https://bex.lightnet.systems/account/{x}",
-	"transaction":"https://bex.lightnet.systems/transaction/{x}",
-	"block":"https://bex.lightnet.systems/block/{x}"
+	"account":"https://bex.mgpchain.systems/account/{x}",
+	"transaction":"https://bex.mgpchain.systems/transaction/{x}",
+	"block":"https://bex.mgpchain.systems/block/{x}"
 };
 
 
@@ -165,7 +165,7 @@ export default class EOS extends Plugin {
 	accountFormatter(account){ return `${account.name}@${account.authority}` }
 	returnableAccount(account){ return { name:account.name, authority:account.authority, publicKey:account.publicKey, blockchain:Blockchains.EOSIO }}
 
-	contractPlaceholder(){ return 'ltnio.token'; }
+	contractPlaceholder(){ return 'mgpio.token'; }
 	recipientLabel(){ return localizedState(LANG_KEYS.GENERIC.AccountName); }
 
 	checkNetwork(network){

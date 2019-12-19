@@ -4,12 +4,12 @@
 		<br>
 		<h2>Welcome to the future</h2>
 		<p>
-			Your LightNet Wallet is set up and ready to use.
+			Your MgpChain Wallet is set up and ready to use.
 		</p>
 
 		<br>
 
-    <Button big="1" blue="1" text="Start using LightNet Wallet" @click.native="go" />
+    <Button big="1" blue="1" text="Start using MgpChain Wallet" @click.native="go" />
 	</section>
 </template>
 

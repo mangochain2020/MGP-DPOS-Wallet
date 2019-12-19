@@ -1,5 +1,5 @@
 {
-  "name": "lightnet-wallet",
+  "name": "mgpchain-wallet",
   "version": "1.0.0",
   "private": true,
   "buttonText": "Scatter Desktop Companion",
@@ -127,7 +127,7 @@
     "url": "https://github.com/GetScatter/ScatterDesktop/issues"
   },
   "build": {
-    "productName": "LightNet Wallet",
+    "productName": "MgpChain Wallet",
     "appId": "com.get-scatter.server",
     "artifactName": "${os}-${productName}-${version}-${arch}.${ext}",
     "asar": true,
@@ -155,7 +155,7 @@
       "oneClick": false,
       "createDesktopShortcut": "always",
       "createStartMenuShortcut": true,
-      "shortcutName": "LightNet Wallet"
+      "shortcutName": "MgpChain Wallet"
     },
     "directories": {
       "buildResources": "build",
@@ -191,10 +191,10 @@
     "linux": {
       "category": "Network",
       "desktop": {
-        "Name": "lightnet-wallet",
-        "GenericName": "lightnet-wallet Desktop",
-        "X-GNOME-FullName": "lightnet-wallet",
-        "Comment": "lightnet-wallet desktop signature server.",
+        "Name": "mgpchain-wallet",
+        "GenericName": "mgpchain-wallet Desktop",
+        "X-GNOME-FullName": "mgpchain-wallet",
+        "Comment": "mgpchain-wallet desktop signature server.",
         "Type": "Application",
         "Terminal": "false",
         "StartupNotify": "false",
@@ -210,7 +210,7 @@
   },
   "homepage": "",
   "keywords": [
-    "lightnet-wallet",
+    "mgpchain-wallet",
     "blockchain",
     "signatures",
     "eos",

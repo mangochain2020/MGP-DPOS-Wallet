@@ -14,7 +14,7 @@
 						<label><b class="red">{{locale(langKeys.POPINS.FULLSCREEN.WHITELISTING.ActionLabel)}}</b></label>
 						<section class="details split-inputs">
 							<input checked disabled="true" type="checkbox" />
-							<figure class="title" style="font-size: 13px;">ltnio.token <i class="contract-split icon-right-open-big"></i> transfer</figure>
+							<figure class="title" style="font-size: 13px;">mgpio.token <i class="contract-split icon-right-open-big"></i> transfer</figure>
 						</section>
 						<br>
 
