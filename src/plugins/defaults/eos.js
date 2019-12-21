@@ -148,9 +148,9 @@ const popupError = result => {
 
 const EXPLORER = {
 	"name":"BlockExplorer",
-	"account":"https://bex.mgpchain.systems/account/{x}",
-	"transaction":"https://bex.mgpchain.systems/transaction/{x}",
-	"block":"https://bex.mgpchain.systems/block/{x}"
+	"account":"https://explorer.mgpchain.io/account/{x}",
+	"transaction":"https://explorer.mgpchain.io/transaction/{x}",
+	"block":"https://explorer.mgpchain.io/block/{x}"
 };
 
 
