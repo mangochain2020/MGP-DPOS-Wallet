@@ -100,7 +100,11 @@
                                            @change="addWhitelist(message)" />
 
                                     <ReputationScore class="score" :reputable="reputable(message)" small="1" />
-                                    <span @click="collapse(message)">{{message.code}} <i class="contract-split icon-right-open-big"></i> {{message.type}}</span>
+                                    <span @click="collapse(message)">
+                                        {{applyCosmetic(message.code)}}
+                                        <i class="contract-split icon-right-open-big"></i>
+                                        {{message.type}}
+                                    </span>
                                 </figure>
                                 <span class="danger-title" v-if="isDangerous">This action is <b>dangerous</b>!</span>
                             </section>
@@ -186,6 +190,8 @@
         RICARDIAN:'ricardian',
     };
 
+	const EOSIO_REPLACEMENT = "mgpio";
+	
 	export default {
 		props:['popup', 'expanded', 'pinning'],
 		components:{
@@ -314,8 +320,9 @@
 				if(!this.reputation) return;
 			    return this.reputation.reputables.find(x => x.code === `${message.code}${message.type}`);
             },
-			ridlLink(reputable){
-			    return `${RIDL_WEB_HOST}/reputable?id=${reputable.id}`
+
+            applyCosmetic(word) {
+                return word === "eosio" ? EOSIO_REPLACEMENT : word;
             },
 
 			resourcesFor(account){
