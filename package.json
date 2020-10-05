@@ -80,7 +80,7 @@
     "jsdom-global": "^3.0.2",
     "mocha": "^6.1.4",
     "mocha-jsdom": "^2.0.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "ora": "^1.2.0",
     "portfinder": "^1.0.17",
     "postcss-import": "^11.0.0",
